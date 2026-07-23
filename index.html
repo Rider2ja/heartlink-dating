@@ -1,34 +1,45 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HeartLink - Dating</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<title>HeartLink</title>
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <header>
-    <h1>❤️ HeartLink</h1>
-    <p>Finde Menschen mit gleichen Interessen</p>
+<h1>❤️ HeartLink</h1>
+<p>Finde Menschen mit gleichen Interessen</p>
 </header>
 
-<main>
 
-<section class="profile">
-    <img src="https://i.pravatar.cc/300" alt="Profilbild">
-    <h2>Alex, 18</h2>
-    <p>🎮 Gaming | 🎵 Musik | 🌍 Reisen</p>
-    <button onclick="like()">❤️ Gefällt mir</button>
-    <button onclick="skip()">❌ Weiter</button>
-</section>
+<div class="card">
 
-</main>
+<img id="bild" src="https://i.pravatar.cc/300">
 
-<footer>
-    <p>© 2026 HeartLink</p>
-</footer>
+<h2 id="name">Sophie, 19</h2>
+
+<p id="info">
+🎵 Musik<br>
+🎮 Gaming<br>
+🌍 Reisen
+</p>
+
+
+<button onclick="dislike()">❌</button>
+
+<button onclick="like()">❤️</button>
+
+</div>
+
+
+<a href="login.html">Login</a>
+<br>
+<a href="profil.html">Profil erstellen</a>
+<br>
+<a href="chat.html">Chat</a>
+
 
 <script src="script.js"></script>
 
